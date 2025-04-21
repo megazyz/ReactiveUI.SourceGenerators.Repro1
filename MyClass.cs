@@ -18,7 +18,7 @@ public class MyReactiveBase : IReactiveObject
     }
 }
 
-public class MyClass : MyReactiveBase
+public partial class MyClass : MyReactiveBase
 {
     [Reactive] public partial string TestProp { get; set; }
 }
